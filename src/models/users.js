@@ -3,15 +3,15 @@ import {Schema, model} from 'mongoose';
 const schema = new Schema({
     user_first_name: {
         type: String,
-        require: true,
+        required: true,
     },
     user_last_name:{
         type: String,
-        require: true,
+        required: true,
     },
     user_age:{
         type: Number,
-        require: true,
+        required: true,
     },
     
 })
